@@ -60,4 +60,4 @@ Si vous rencontrez des problèmes ou avez des suggestions pour améliorer le mod
 
 ---
 
-**Auteur**: Todakouma
+**Auteur**: SamiBDev
