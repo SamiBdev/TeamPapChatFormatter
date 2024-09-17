@@ -1,46 +1,66 @@
+# TeamPap Chat Formatter
 
-Source installation information for modders
--------------------------------------------
-This code follows the Minecraft Forge installation methodology. It will apply
-some small patches to the vanilla MCP source code, giving you and it access 
-to some of the data and functions you need to build a successful mod.
+[![Minecraft Version](https://img.shields.io/badge/Minecraft-1.20.1-brightgreen)](https://www.minecraft.net/)
+[![Forge Version](https://img.shields.io/badge/Forge-47.3.10-blue)](https://files.minecraftforge.net/)
 
-Note also that the patches are built against "un-renamed" MCP source code (aka
-SRG Names) - this means that you will not be able to read them directly against
-normal code.
+TeamPap Chat Formatter est un mod Minecraft Forge pour la version 1.20.1 qui permet d'afficher les préfixes LuckPerms dans le chat et le tableau (tab) du serveur. Ce mod est conçu pour les serveurs Minecraft utilisant LuckPerms pour la gestion des permissions et des préfixes.
 
-Setup Process:
-==============================
+## Fonctionnalités
 
-Step 1: Open your command-line and browse to the folder where you extracted the zip file.
+- Affichage des préfixes LuckPerms dans le chat du serveur.
+- Affichage des préfixes LuckPerms dans le tableau (tab) des joueurs.
+- Prise en charge des codes de couleurs et des styles Minecraft (par exemple, `&c`, `&l`, `&o`).
+- Mise à jour en temps réel des préfixes dans le tableau lors des changements de données de l'utilisateur LuckPerms.
 
-Step 2: You're left with a choice.
-If you prefer to use Eclipse:
-1. Run the following command: `./gradlew genEclipseRuns`
-2. Open Eclipse, Import > Existing Gradle Project > Select Folder 
-   or run `gradlew eclipse` to generate the project.
+## Installation
 
-If you prefer to use IntelliJ:
-1. Open IDEA, and import project.
-2. Select your build.gradle file and have it import.
-3. Run the following command: `./gradlew genIntellijRuns`
-4. Refresh the Gradle Project in IDEA if required.
+1. **Télécharger et installer Minecraft Forge pour la version 1.20.1** :
+   - Téléchargez la version recommandée de Forge [ici](https://files.minecraftforge.net/).
+   - Suivez les instructions d'installation sur le site de Forge.
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can 
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-(this does not affect your code) and then start the process again.
+2. **Installer LuckPerms** :
+   - Assurez-vous que LuckPerms est installé et configuré correctement sur votre serveur Minecraft.
+   - Vous pouvez télécharger LuckPerms [ici](https://luckperms.net/).
 
-Mapping Names:
-=============================
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license, if you do not agree with it you can change your mapping names to other crowdsourced names in your 
-build.gradle. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
+3. **Télécharger et installer le mod TeamPap Chat Formatter** :
+   - Téléchargez la dernière version du mod depuis la page des [releases](https://github.com/votre-repo-url/releases) de ce projet.
+   - Placez le fichier `.jar` téléchargé dans le dossier `mods` de votre serveur Minecraft.
 
-Additional Resources: 
-=========================
-Community Documentation: https://docs.minecraftforge.net/en/1.20.1/gettingstarted/
-LexManos' Install Video: https://youtu.be/8VEdtQLuLO0
-Forge Forums: https://forums.minecraftforge.net/
-Forge Discord: https://discord.minecraftforge.net/
+4. **Lancer le serveur Minecraft** :
+   - Démarrez votre serveur Minecraft pour activer le mod.
+
+## Configuration
+
+Le mod ne nécessite pas de configuration spécifique pour fonctionner. Cependant, vous devez vous assurer que LuckPerms est correctement installé et configuré pour gérer les préfixes des utilisateurs.
+
+## Utilisation
+
+- **Chat** : Les préfixes LuckPerms des joueurs seront automatiquement affichés dans le chat du serveur.
+- **Tab** : Les préfixes LuckPerms des joueurs seront affichés dans le tableau des joueurs. Les mises à jour des préfixes seront détectées automatiquement lors des changements de données des utilisateurs LuckPerms.
+
+## Contribuer
+
+Les contributions sont les bienvenues ! Si vous souhaitez contribuer à ce projet, veuillez suivre les étapes suivantes :
+
+1. Forker ce dépôt.
+2. Créer une branche pour votre fonctionnalité (`git checkout -b feature/ma-fonctionnalite`).
+3. Committer vos modifications (`git commit -m 'Ajout de ma fonctionnalité'`).
+4. Pousser sur la branche (`git push origin feature/ma-fonctionnalite`).
+5. Ouvrir une Pull Request.
+
+## Problèmes et suggestions
+
+Si vous rencontrez des problèmes ou avez des suggestions pour améliorer le mod, veuillez ouvrir une [issue](https://github.com/votre-repo-url/issues) sur GitHub.
+
+## Licence
+
+Ce projet est sous licence MIT. Voir le fichier [LICENSE](https://github.com/votre-repo-url/LICENSE) pour plus de détails.
+
+## Remerciements
+
+- [Forge](https://files.minecraftforge.net/) pour leur modding API.
+- [LuckPerms](https://luckperms.net/) pour leur puissant système de gestion des permissions.
+
+---
+
+**Auteur**: Todakouma
