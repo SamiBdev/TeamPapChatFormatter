@@ -23,7 +23,7 @@ TeamPap Chat Formatter est un mod Minecraft Forge pour la version 1.20.1 qui per
    - Vous pouvez télécharger LuckPerms [ici](https://luckperms.net/).
 
 3. **Télécharger et installer le mod TeamPap Chat Formatter** :
-   - Téléchargez la dernière version du mod depuis la page des [releases](https://github.com/votre-repo-url/releases) de ce projet.
+   - Téléchargez la dernière version du mod depuis la page des [releases](https://github.com/SamiBdev/TeamPapChatFormatter/releases) de ce projet.
    - Placez le fichier `.jar` téléchargé dans le dossier `mods` de votre serveur Minecraft.
 
 4. **Lancer le serveur Minecraft** :
@@ -50,11 +50,8 @@ Les contributions sont les bienvenues ! Si vous souhaitez contribuer à ce proje
 
 ## Problèmes et suggestions
 
-Si vous rencontrez des problèmes ou avez des suggestions pour améliorer le mod, veuillez ouvrir une [issue](https://github.com/votre-repo-url/issues) sur GitHub.
+Si vous rencontrez des problèmes ou avez des suggestions pour améliorer le mod, veuillez ouvrir une [issue](https://github.com/SamiBdev/TeamPapChatFormatter/issues) sur GitHub.
 
-## Licence
-
-Ce projet est sous licence MIT. Voir le fichier [LICENSE](https://github.com/votre-repo-url/LICENSE) pour plus de détails.
 
 ## Remerciements
 
