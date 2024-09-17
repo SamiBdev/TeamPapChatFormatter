@@ -1,0 +1,30 @@
+modLoader="javafml" #mandatory
+loaderVersion="[47,)" #mandatory, spécifie la version de Forge requise (1.20.1 ici)
+
+# Définir explicitement la licence du mod
+license="MIT" # Exemple de licence, remplacez par celle que vous utilisez
+
+[[mods]] # Déclaration du mod
+modId="teampapchatformatter" #mandatory
+version="1.0.0" # Version du mod, remplacez par la version actuelle de votre mod
+displayName="TeamPap Chat Formatter" # Nom affiché du mod
+
+# Une description textuelle pour le mod
+description='''Mod pour afficher les préfixes LuckPerms dans le chat Minecraft.'''
+
+authors="Todakouma" # Auteur du mod
+
+# Dépendances du mod
+[[dependencies.teampapchatformatter]]
+modId="forge" # Dépendance obligatoire à Forge
+mandatory=true # Indique que Forge est obligatoire pour charger ce mod
+versionRange="[47,)" # Spécifie la version de Forge requise (compatible avec Forge 1.20.1)
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.teampapchatformatter]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)" # Spécifie que ce mod est compatible avec Minecraft 1.20.1
+ordering="NONE"
+side="BOTH"
